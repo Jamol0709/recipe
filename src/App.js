@@ -6,9 +6,10 @@ import SearchBar from './components/SearchBar';
 const apiUrl = "https://www.themealdb.com/api/json/v1/1/search.php?s="
 
 function App() {
-  const[isLoading, setIsLoading]= useState(false);
-  const[query, setQuery]= useState("");
-  const[recipes, setRecipes]=useState([]);
+
+  const [isLoading, setIsLoading]= useState(false);
+  const [query, setQuery]= useState("");
+  const [recipes, setRecipes]=useState([]);
 
   //function to search for the recipes
 
